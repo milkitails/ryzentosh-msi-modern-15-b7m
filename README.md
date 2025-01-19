@@ -115,7 +115,7 @@ to be able to edit these settings, you need to press `left alt+right ctrl+right 
 since the wifi doesnt work and the laptop doesnt have an ethernet port, we're need <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">full offline installer</a>  (this one is written to a usb drive using <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
 
 ### problems:
-- all component problems are described in [component situation table](#component-situation)
+- all component problems are described in [component situation table](#components-situation)
 - if you don't understand/want to change opencore settings - you'll have to live with “6-ядерный” instead of “6-core” in the about this mac menu
   
 <br>
