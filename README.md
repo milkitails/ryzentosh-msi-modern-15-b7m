@@ -27,7 +27,7 @@ MSI Modern 15 B7M (R5 7530U) Hackintosh
 | **трекпад `i2c`**            | ✓  |
 | **usb tethering `android`**  | ✓  |
 
-### вход для наушников работает только с патчем:
+### вход для наушников (работает только с патчем):
 ```
 git clone https://github.com/lvs1974/ComboJack.git
 bash ComboJack/ComboJack_Installer/install.sh
@@ -46,8 +46,6 @@ rm -rf ComboJack
 **включить:**
 
 - above 4G decoding
-
-<br>
 
 ### установка:
 так как wifi не работает, а ethernet порта в ноутбуке нет - нам нужен <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">полный офлайн установщик</a>  (этот записывается на usb накопитель с помощью <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
@@ -76,7 +74,7 @@ rm -rf ComboJack
 | **touchpad `i2c`**          | ✓  |
 | **usb tethering `android`** | ✓  |
 
-### combojack works only with this patch:
+### combojack (works only with this patch):
 ```
 git clone https://github.com/lvs1974/ComboJack.git
 bash ComboJack/ComboJack_Installer/install.sh
@@ -95,8 +93,6 @@ rm -rf ComboJack
 **enable:**
 
 - above 4G decoding
-
-<br>
 
 ### installing:
 since the wifi doesnt work and the laptop doesnt have an ethernet port, we're need <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">full offline installer</a>  (this one is written to a usb drive using <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
