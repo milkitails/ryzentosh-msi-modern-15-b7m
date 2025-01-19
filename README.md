@@ -15,18 +15,18 @@ msi modern 15 b7m (R5 7530U) hackintosh
 ### состояние компонентов:
 | **компонент** | **состояние** |
 | --------------- | :-----------------: |
-| **ryzen 5 7530u `amd`**      | ✓  |
-| **radeon graphics `amd`**    | ✓  |
-| **ssd nvme `kingston`**      | ✓  |
-| **звуковая карта `realtek`** | ✓  |
-| **микрофон `realtek`**       | ✗  |
-| **вход для наушников**       | ✓  |
-| **wifi/bluetooth `rz608`**   | ✗  |
-| **картридер `realtek`**      | ✓  |
-| **вебкамера `msi`**          | ✓  |
-| **клавиатура `ps2`**         | ✓  |
-| **трекпад `i2c`**            | ✓  |
-| **usb tethering `android`**  | ✓  |
+| **ryzen 5 7530u `amd`**        | ✓  |
+| **radeon graphics `amd`**      | ✓  |
+| **ssd nvme `kingston`**        | ✓  |
+| **звуковая карта `realtek`**   | ✓  |
+| **микрофон `realtek`**         | ✗  |
+| **вход для наушников**         | ✓  |
+| **wifi/bluetooth `mtk rz608`** | ✗  |
+| **картридер `realtek`**        | ✓  |
+| **вебкамера `msi`**            | ✓  |
+| **клавиатура `ps2`**           | ✓  |
+| **трекпад `i2c`**              | ✓  |
+| **tethering `usb`**            | ✓  |
 
 ### вход для наушников (работает только с патчем):
 ```
@@ -54,7 +54,7 @@ rm -rf ComboJack
 - advanced/amd cbs/nbio common options/gfx_configuration/igpu configuration -> uma_specified
 - advanced/amd cbs/nbio common options/gfx_configuration/uma frame buffer size -> ваш выбор
 
-### установка
+### установка:
 * подготовка
   + создать раздел для установки macOS (из windows, отформатировать в NTFS)
   + так как wifi не работает, а ethernet порта в ноутбуке нет - нам нужен <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">полный офлайн установщик</a>  (этот записывается на usb накопитель с помощью <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
@@ -132,18 +132,18 @@ rm -rf ComboJack
 ### components situation:
 | **component** | **situation** |
 | --------------- | :-----------------: |
-| **ryzen 5 7530u `amd`**     | ✓  |
-| **radeon graphics `amd`**   | ✓  |
-| **ssd nvme `kingston`**     | ✓  |
-| **speaker `realtek`**       | ✓  |
-| **mic `realtek`**           | ✗  |
-| **combojack**               | ✓  |
-| **wifi/bluetooth `rz608`**  | ✗  |
-| **cardreader `realtek`**    | ✓  |
-| **webcamera `msi`**         | ✓  |
-| **keyboard `ps2`**          | ✓  |
-| **touchpad `i2c`**          | ✓  |
-| **usb tethering `android`** | ✓  |
+| **ryzen 5 7530u `amd`**         | ✓  |
+| **radeon graphics `amd`**       | ✓  |
+| **ssd nvme `kingston`**         | ✓  |
+| **speaker `realtek`**           | ✓  |
+| **mic `realtek`**               | ✗  |
+| **combojack**                   | ✓  |
+| **wifi/bluetooth `mtk rz608`**  | ✗  |
+| **cardreader `realtek`**        | ✓  |
+| **webcamera `msi`**             | ✓  |
+| **keyboard `ps2`**              | ✓  |
+| **touchpad `i2c`**              | ✓  |
+| **tethering `usb`**             | ✓  |
 
 ### combojack (works only with this patch):
 ```
