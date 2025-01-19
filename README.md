@@ -20,11 +20,11 @@ MSI Modern 15 B7M (R5 7530U) Hackintosh
 | **звуковая карта `realtek`** |  ✓  |
 | **микрофон `realtek`** |         ✗         |
 | **вход для наушников** | ✓  |
-| **wifi/bluetooth `RZ608`**   |         ✗         |
+| **wifi/bluetooth `rz608`**   |         ✗         |
 | **картридер `realtek`** |  ✓  |
 | **вебкамера `msi`** | ✓  |
-| **клавиатура `PS2`**| ✓  |
-| **трекпад `I2C`** | ✓  |
+| **клавиатура `ps2`**| ✓  |
+| **трекпад `i2c`** | ✓  |
 | **usb tethering `android`** | ✓ |
 
 #### вход для наушников работает только с патчем:
@@ -48,17 +48,17 @@ rm -rf ComboJack
 
 | **component**    | **situation** |
 | --------------- | :-----------------: |
-| **ryzen 5 7530u** |  ✓  |
-| **radeon graphics `integrated`** | ✓  |
-| **kingston nvme SSD** | ✓  |
-| **speaker** |  ✓  |
-| **mic** |         ✗         |
+| **ryzen 5 7530u `amd`** |  ✓  |
+| **radeon graphics `amd`** | ✓  |
+| **ssd nvme `kingston`** | ✓  |
+| **speaker `realtek`** |  ✓  |
+| **mic `realtek`** |         ✗         |
 | **combojack** | ✓  |
-| **wifi/bluetooth**   |         ✗         |
-| **cardreader** |  ✓  |
-| **webcamera** | ✓  |
-| **keyboard** | ✓  |
-| **touchpad** | ✓  |
+| **wifi/bluetooth `rz608`**   |         ✗         |
+| **cardreader `realtek`** |  ✓  |
+| **webcamera `msi`** | ✓  |
+| **keyboard `ps2`** | ✓  |
+| **touchpad `i2c`** | ✓  |
 | **usb tethering `android`** | ✓ |
 
 #### combojack works only with this patch:
