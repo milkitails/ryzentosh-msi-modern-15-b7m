@@ -1,7 +1,7 @@
 # ryzentosh-msi-modern-15-b7m
 msi modern 15 b7m (R5 7530U) hackintosh
 
-![image](https://github.com/user-attachments/assets/7437545d-bc7e-485d-9d6d-ff1a18b01171)
+![image](https://github.com/user-attachments/assets/2839fc84-cae9-4b0c-9d2b-140e277a2bb7)
 
 <a href="https://www.apple.com/macos">
   <img src="https://img.shields.io/badge/Sonoma-14.0-informational.svg">
