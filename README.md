@@ -12,6 +12,7 @@ msi modern 15 b7m (R5 7530U) hackintosh
 
 ## русский
 
+### состояние компонентов
 | **компонент** | **состояние** |
 | --------------- | :-----------------: |
 | **ryzen 5 7530u `amd`**      | ✓  |
@@ -35,6 +36,7 @@ rm -rf ComboJack
 ```
 
 ### настройка bios
+чтобы редактировать эти настройки, нужно нажать `левый alt+правый ctrl+правый shift+f2` в bios, который открывается с помощью `delete` при загрузке
 
 **выключить:**
 
@@ -59,6 +61,7 @@ rm -rf ComboJack
 
 ## english
 
+### components situation
 | **component** | **situation** |
 | --------------- | :-----------------: |
 | **ryzen 5 7530u `amd`**     | ✓  |
@@ -82,6 +85,7 @@ rm -rf ComboJack
 ```
 
 ### bios settings
+to be able to edit these settings, you need to press `left alt+right ctrl+right shift+f2` in bios, which is opens with `delete` at boot
 
 **disable:**
 
