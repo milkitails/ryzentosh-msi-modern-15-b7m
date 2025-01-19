@@ -40,14 +40,19 @@ rm -rf ComboJack
 
 **выключить:**
 
-- fast boot
-- com/serial/parallel
-- secure boot
-- resize gpu bars
+- boot/fast boot
+- security/secure boot/secure boot mode -> custom
+- security/secure boot/secure boot support
+- advanced/pci subsystem settings/re-size bar support
 
 **включить:**
 
-- above 4G decoding
+- advanced/pci subsystem settings/above 4g decoding
+
+**настройка видеопамяти (опционально):**
+
+- advanced/amd cbs/nbio common options/gfx_configuration/igpu configuration -> uma_specified
+- advanced/amd cbs/nbio common options/gfx_configuration/uma frame buffer size -> ваш выбор
 
 ### установка:
 так как wifi не работает, а ethernet порта в ноутбуке нет - нам нужен <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">полный офлайн установщик</a>  (этот записывается на usb накопитель с помощью <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
@@ -89,14 +94,19 @@ to be able to edit these settings, you need to press `left alt+right ctrl+right 
 
 **disable:**
 
-- fast boot
-- com/serial/parallel
-- secure boot
-- resize gpu bars
+- boot/fast boot
+- security/secure boot/secure boot mode -> custom
+- security/secure boot/secure boot support
+- advanced/pci subsystem settings/re-size bar support
 
 **enable:**
 
-- above 4G decoding
+- advanced/pci subsystem settings/above 4g decoding
+
+**video-memory setting (optional):**
+
+- advanced/amd cbs/nbio common options/gfx_configuration/igpu configuration -> uma_specified
+- advanced/amd cbs/nbio common options/gfx_configuration/uma frame buffer size -> your choice
 
 ### installing:
 since the wifi doesnt work and the laptop doesnt have an ethernet port, we're need <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">full offline installer</a>  (this one is written to a usb drive using <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
