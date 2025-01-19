@@ -53,7 +53,7 @@ rm -rf ComboJack
 так как wifi не работает, а ethernet порта в ноутбуке нет - нам нужен <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">полный офлайн установщик</a>  (этот записывается на usb накопитель с помощью <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
 
 <br>
-я взял за основу EFI от <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">saeidex</a>
+я взял за основу EFI от <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">saeidex/ryzentosh-msi-modern-15</a>
 
 <br>
 <br>
@@ -102,4 +102,4 @@ to be able to edit these settings, you need to press `left alt+right ctrl+right 
 since the wifi doesnt work and the laptop doesnt have an ethernet port, we're need <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">full offline installer</a>  (this one is written to a usb drive using <a href="https://www.drive-image.com/downloads/RDriveImage7.exe">r-drive image</a>)
 
 <br>
-i used the EFI from <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">saeidex</a> as a basis
+i used the EFI from <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">saeidex/ryzentosh-msi-modern-15</a> as a basis
