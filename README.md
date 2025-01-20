@@ -35,6 +35,79 @@ bash ComboJack/ComboJack_Installer/install.sh
 rm -rf ComboJack
 ```
 
+### wifi
+и все же, завести rz608 под macos пока не удалось
+
+но эти usb wifi адаптеры работают с <a href="https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases/download/V17/Wireless.USB.OC.Big.Sur.Adapter-V17.zip">драйвером</a> (chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+|:-------------------------:|
+|Acer UWA5                  |
+|Alfa AWUS036AC             |
+|Alfa AWUS036ACH            |
+|Archer T2U Plus `AC600`    |
+|Archer T2U Nano            |
+|Archer T3U                 |
+|Archer T3U Plus            |
+|Archer T2U MINI V3         |
+|ArcherT4U V1, V2, V3       |
+|Archer T9UH V1, V2         |
+|ASUS USB AC68              |
+|ASUS USB-N13               |
+|ASUS USB Nano-AC53         |
+|BrosTrend FBA_AC3          |
+|COMFAST CF-811AC           |
+|COMFAST CF-812AC           |
+|Comfast CF-WU810N          |
+|Comfast CF-758F            |
+|Cudy WU1300S               | 
+|Cudy WU700                 |
+|CXFTEOXK                   |
+|DLink DWA-121 `N150`       |
+|DLink DWA-131 E            |
+|DLink DWA-171 C            |
+|DLink DWA-182 D            |
+|DLink DWA-192 A            |
+|EDIMAX EW-7611UCB          |
+|EDIMAX EW-7722UTn V2       |
+|EDIMAX_EW-7822ULC          |
+|EDIMAX EW-7833UAC          |
+|EDIMAX EW-7612Uan V2       |
+|EDIMAX N300                |
+|EDIMAX EW-7811Un `N150`    |
+|EDUP EP-AC1689             |
+|Fenvi AC1300 `RTL8812bu`   |
+|FILOWA USB WiFi-RTL8812BU  | 
+|Foktech AC600 Nano         |
+|Jensen Eagle 100-AC        |
+|Kextech MINI USB RTL8192   |
+|Linksys WUSB6300 V2        |
+|Linksys WUSB6400M          |
+|Netgear A6100              |
+|Netgear A6150              |
+|Netgear A7000              |
+|Netis WF2120 N Nano USB    |
+|M-Tech UW-01 USB           |
+|Mercusys MW300UM           |
+|Plexgear AC1200            |
+|Raimadim AC1300 `RTL8822BU`|
+|Sitecom WLA7100            |
+|TechKey AC1200             |
+|TL-WN823Nv1/v2/v3          |
+|TL-WN725Nv3                | 
+|TL-WN723Nv2/v3             |
+|TL-WN722Nv2/v3             |
+|TL-WN821Nv6                |
+|TL-WN822Nv4/v5             |
+|TENDA W311-MINI            |
+|TENDA U12                  |
+|TRENDnet N150 Micro        |
+|TRENDnet TEW-808UBM        |
+|TRENDnet TEW-908UB         |
+|UGreen CM448               |
+|YUNCLOUD `RTL8814AU`       |
+|ZAPO W58L `RTL881lAU`      |
+|Zyxel NWD6602              |
+|Zyxel NWD6605              |
+
 ### настройка bios:
 чтобы редактировать эти настройки, нужно нажать `левый alt+правый ctrl+правый shift+f2` в bios, который открывается с помощью `delete` при загрузке
 
@@ -151,6 +224,80 @@ git clone https://github.com/lvs1974/ComboJack.git
 bash ComboJack/ComboJack_Installer/install.sh
 rm -rf ComboJack
 ```
+
+### wifi
+and yet, I haven't been able to get the rz608 on macos yet.
+
+but these usb wifi adapters work with this <a href="https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases/download/V17/Wireless.USB.OC.Big.Sur.Adapter-V17.zip">driver</a> (chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+|:-------------------------:|
+|Acer UWA5                  |
+|Alfa AWUS036AC             |
+|Alfa AWUS036ACH            |
+|Archer T2U Plus `AC600`    |
+|Archer T2U Nano            |
+|Archer T3U                 |
+|Archer T3U Plus            |
+|Archer T2U MINI V3         |
+|ArcherT4U V1, V2, V3       |
+|Archer T9UH V1, V2         |
+|ASUS USB AC68              |
+|ASUS USB-N13               |
+|ASUS USB Nano-AC53         |
+|BrosTrend FBA_AC3          |
+|COMFAST CF-811AC           |
+|COMFAST CF-812AC           |
+|Comfast CF-WU810N          |
+|Comfast CF-758F            |
+|Cudy WU1300S               | 
+|Cudy WU700                 |
+|CXFTEOXK                   |
+|DLink DWA-121 `N150`       |
+|DLink DWA-131 E            |
+|DLink DWA-171 C            |
+|DLink DWA-182 D            |
+|DLink DWA-192 A            |
+|EDIMAX EW-7611UCB          |
+|EDIMAX EW-7722UTn V2       |
+|EDIMAX_EW-7822ULC          |
+|EDIMAX EW-7833UAC          |
+|EDIMAX EW-7612Uan V2       |
+|EDIMAX N300                |
+|EDIMAX EW-7811Un `N150`    |
+|EDUP EP-AC1689             |
+|Fenvi AC1300 `RTL8812bu`   |
+|FILOWA USB WiFi-RTL8812BU  | 
+|Foktech AC600 Nano         |
+|Jensen Eagle 100-AC        |
+|Kextech MINI USB RTL8192   |
+|Linksys WUSB6300 V2        |
+|Linksys WUSB6400M          |
+|Netgear A6100              |
+|Netgear A6150              |
+|Netgear A7000              |
+|Netis WF2120 N Nano USB    |
+|M-Tech UW-01 USB           |
+|Mercusys MW300UM           |
+|Plexgear AC1200            |
+|Raimadim AC1300 `RTL8822BU`|
+|Sitecom WLA7100            |
+|TechKey AC1200             |
+|TL-WN823Nv1/v2/v3          |
+|TL-WN725Nv3                | 
+|TL-WN723Nv2/v3             |
+|TL-WN722Nv2/v3             |
+|TL-WN821Nv6                |
+|TL-WN822Nv4/v5             |
+|TENDA W311-MINI            |
+|TENDA U12                  |
+|TRENDnet N150 Micro        |
+|TRENDnet TEW-808UBM        |
+|TRENDnet TEW-908UB         |
+|UGreen CM448               |
+|YUNCLOUD `RTL8814AU`       |
+|ZAPO W58L `RTL881lAU`      |
+|Zyxel NWD6602              |
+|Zyxel NWD6605              |
+
 
 ### bios settings:
 to be able to edit these settings, you need to press `left alt+right ctrl+right shift+f2` in bios, which is opens with `delete` at boot
