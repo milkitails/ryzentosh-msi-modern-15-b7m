@@ -38,7 +38,7 @@ rm -rf ComboJack
 ### wifi
 и все же, завести rz608 под macos пока не удалось
 
-но эти usb wifi адаптеры работают с <a href="https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases/download/V17/Wireless.USB.OC.Big.Sur.Adapter-V17.zip">драйвером</a> (chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+но эти usb wifi адаптеры работают с <a href="https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip">драйвером</a> (chris1111/Wireless-USB-Big-Sur-Adapter)
 |:-------------------------:|
 |Acer UWA5                  |
 |Alfa AWUS036AC             |
@@ -228,7 +228,7 @@ rm -rf ComboJack
 ### wifi
 and yet, I haven't been able to get the rz608 on macos yet.
 
-but these usb wifi adapters work with this <a href="https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases/download/V17/Wireless.USB.OC.Big.Sur.Adapter-V17.zip">driver</a> (chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+but these usb wifi adapters work with this <a href="https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip">driver</a> (chris1111/Wireless-USB-Big-Sur-Adapter)
 |:-------------------------:|
 |Acer UWA5                  |
 |Alfa AWUS036AC             |
