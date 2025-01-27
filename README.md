@@ -18,18 +18,19 @@ msi modern 15 b7m (R5 7530U) hackintosh
 ### состояние компонентов:
 | **компонент** | **состояние** |
 | --------------- | :-----------------: |
-| **ryzen 5 7530u `amd`**        | ✓  |
-| **radeon graphics `amd`**      | ✓  |
-| **ssd nvme `kingston`**        | ✓  |
-| **звуковая карта `realtek`**   | ✓  |
-| **микрофон `realtek`**         | ✗  |
-| **вход для наушников**         | ✓  |
-| **wifi/bluetooth `mtk rz608`** | ✗  |
-| **картридер `realtek`**        | ✓  |
-| **вебкамера `msi`**            | ✓  |
-| **клавиатура `ps2`**           | ✓  |
-| **трекпад `i2c`**              | ✓  |
-| **tethering `usb`**            | ✓  |
+| **ryzen 5 7530u `amd`**          | ✓  |
+| **radeon graphics `amd`**        | ✓  |
+| **ssd nvme `kingston`**          | ✓  |
+| **звуковая карта `realtek`**     | ✓  |
+| **микрофон `realtek`**           | ✗  |
+| **вход для наушников**           | ✓  |
+| **wifi/bluetooth `mtk rz608`**   | ✗  |
+| **картридер `realtek`**          | ✓  |
+| **вебкамера `msi`**              | ✓  |
+| **клавиатура `ps2`**             | ✓  |
+| **регулировка подсветки экрана** | ✓  |
+| **трекпад `i2c`**                | ✓  |
+| **tethering `usb`**              | ✓  |
 
 ### вход для наушников (работает только с патчем):
 ```
@@ -208,18 +209,19 @@ rm -rf ComboJack
 ### components situation:
 | **component** | **situation** |
 | --------------- | :-----------------: |
-| **ryzen 5 7530u `amd`**         | ✓  |
-| **radeon graphics `amd`**       | ✓  |
-| **ssd nvme `kingston`**         | ✓  |
-| **speaker `realtek`**           | ✓  |
-| **mic `realtek`**               | ✗  |
-| **combojack**                   | ✓  |
-| **wifi/bluetooth `mtk rz608`**  | ✗  |
-| **cardreader `realtek`**        | ✓  |
-| **webcamera `msi`**             | ✓  |
-| **keyboard `ps2`**              | ✓  |
-| **touchpad `i2c`**              | ✓  |
-| **tethering `usb`**             | ✓  |
+| **ryzen 5 7530u `amd`**          | ✓  |
+| **radeon graphics `amd`**        | ✓  |
+| **ssd nvme `kingston`**          | ✓  |
+| **speaker `realtek`**            | ✓  |
+| **mic `realtek`**                | ✗  |
+| **combojack**                    | ✓  |
+| **wifi/bluetooth `mtk rz608`**   | ✗  |
+| **cardreader `realtek`**         | ✓  |
+| **webcamera `msi`**              | ✓  |
+| **keyboard `ps2`**               | ✓  |
+| **display backlight adjustment** | ✓  |
+| **touchpad `i2c`**               | ✓  |
+| **tethering `usb`**              | ✓  |
 
 ### combojack (works only with this patch):
 ```
@@ -388,6 +390,9 @@ to be able to edit these settings, you need to press `left alt+right ctrl+right 
 ### problems:
 - all component problems are described in [component situation table](#components-situation)
 - if you don't understand/want to change opencore settings - you'll have to live with “6-ядерный” instead of “6-core” in the about this mac menu
+  + fix:
+    - config.plist: NVRAM/4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102/revcpuname -> 6-core AMD Ryzen 5
+    - reset nvram
   
 <br>
 i used the EFI from <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">saeidex/ryzentosh-msi-modern-15</a> as a basis
