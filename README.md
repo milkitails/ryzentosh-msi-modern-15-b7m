@@ -6,9 +6,11 @@ msi modern 15 b7m (R5 7530U) hackintosh
 <a href="https://drive.google.com/file/d/1bkfjiVjOvsQkADeyKQms7r9SnuctIsxf/view?usp">
   <img src="https://img.shields.io/badge/Sonoma-14.0-5B8266">
 </a>
+<br>
 <a href="https://github.com/acidanthera/OpenCorePkg">
   <img src="https://img.shields.io/badge/OpenCore-0.9.5-4381C1">
 </a>
+<br>
 <a href="https://github.com/saeidex/ryzentosh-msi-modern-15">
   <img src="https://img.shields.io/badge/saeidex-ryzentosh--msi--modern--15-388697">
 </a>
